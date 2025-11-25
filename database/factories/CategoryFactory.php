@@ -18,7 +18,7 @@ class CategoryFactory extends Factory
     {
         return [
             'name' => fake()->word(),
-            'color' =>fake()->paragraph(),
+            'color' =>fake()->hexColor(),
         ];
     }
 }
