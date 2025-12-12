@@ -1,5 +1,6 @@
+<x-forum.layouts.app>
 {{ $question->title }}
-{{ $question->description }}
 <p>
-{{ $question->answers->content}}
+{{ $question->description }}
 </p>
+</x-forum.layouts.app>
